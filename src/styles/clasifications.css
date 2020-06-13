@@ -144,93 +144,97 @@
   text-align: center;
 }
 
-.main--types{
+/* main section */
+
+.main--arrows{
+  position: relative;
+  top: 520px;
+  padding: 0 30px;
+}
+
+.main--clasifications{
   max-width: 1088px;
   width: 100%;
+  height: 410px;
   margin: auto;
-}
-
-.types-cards{
-  width: 100%;
-  height: 200px;
-  margin: auto;
-  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-.types--img{
-  width: 25%;
-  box-shadow: var(--box-shadow);
-}
-
-.types--img img{
-  width: 100%;
-  height: 200px;
-  object-fit: fill;
-}
-
-.types--info{
-  width: 80%;
-  height: auto;
-  padding: 20px;
+.clasifications--cards{
+  width: 260px;
+  height: 410px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+.clasifications--cards__img{
+  width: 100%;
+  height: 300px;
+  box-shadow: var(--box-shadow);
+  
+}
+.clasifications--cards img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.clasifications--info{
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
 }
 
-.types--info__clasification{
-  color: var(--gray-color);
-  font-size: 20px;
-  width: 100%;
-  text-align: center; 
+.clasifications--info__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
   position: relative;
-  top: 10px;
+  bottom: 10px;
+  line-height: 30px;
+  text-align: center;
 }
 
-.types--info__clasification h4{
-
+.clasifications--info__button{
+  justify-self: start;
 }
 
-.types--info__info{
-  font-size: var(--normal-16);
-  color: var(--gray-color);
-  width: 90%;
-  padding: 30px;
-}
-
-.types--info__button{
+.clasifications--info__button button {
   width: 150px;
-  align-self: flex-end;
-  color: var(--white-color);
-}
-
-.types--info__button button{
-  border-radius: 25px;
   height: 30px;
-  font-size: var(--normal-16);
-  color: var(--white-color);
-  width: 100%;
   background-color: var(--mostaza-color);
   border: none;
+  border-radius: 25px;
+  color: var(--white-color);
+  color: var(--normal-16);
   box-shadow: var(--box-shadow);
   outline: none;
 }
 
-.types--info__button button:hover{
-  cursor: pointer;
-  background-color: var(--cat-color);
+.clasifications--info__button a{
+  text-decoration: none;
+  color: var(--white-color);
 }
 
+.clasifications--info__button button:hover{
+  background-color: var(--cat-color);
+  cursor: pointer;
+}
 
-/* Footer */
+/* Footer --------------------------->  */ 
 
 
 .footer{
   width: 100%;
   height: 40px;
   background-color: var(--gray-color);
+  margin-top: 87px;
   display: flex;
   flex-direction: row;
   justify-content: center;

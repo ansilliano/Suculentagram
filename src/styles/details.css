@@ -40,6 +40,10 @@
   font-family: "Muli", sans-serif;
 }
 
+/* clases generales */
+
+
+
 /* barra de navegacion */
 
 .container--menu{
@@ -102,6 +106,13 @@
   text-decoration: underline;
 }
 
+/* container main */
+
+.container--main{
+
+  background-color: red;
+}
+
 /* estilos filter */
 
 .container--filter{
@@ -144,93 +155,42 @@
   text-align: center;
 }
 
-.main--types{
-  max-width: 1088px;
+/* main section */
+
+.details--card{
+  max-width: 996px;
   width: 100%;
+  height: 328px;
   margin: auto;
+  margin-top: 35px;
 }
 
-.types-cards{
-  width: 100%;
-  height: 200px;
-  margin: auto;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: row;
+.details--img{
+  width: 40%;
+  height: 328px;
+  background-color: aqua;
 }
 
-.types--img{
-  width: 25%;
-  box-shadow: var(--box-shadow);
-}
-
-.types--img img{
-  width: 100%;
-  height: 200px;
-  object-fit: fill;
-}
-
-.types--info{
-  width: 80%;
-  height: auto;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.types--info__clasification{
-  color: var(--gray-color);
-  font-size: 20px;
-  width: 100%;
-  text-align: center; 
-  position: relative;
-  top: 10px;
-}
-
-.types--info__clasification h4{
+.details--img img{
+  width: auto;
+  height: 328px;
+  object-fit: cover;
 
 }
 
-.types--info__info{
-  font-size: var(--normal-16);
-  color: var(--gray-color);
-  width: 90%;
-  padding: 30px;
+.details--text{
+  width: 60%;
+  background-color: aquamarine;
 }
 
-.types--info__button{
-  width: 150px;
-  align-self: flex-end;
-  color: var(--white-color);
-}
-
-.types--info__button button{
-  border-radius: 25px;
-  height: 30px;
-  font-size: var(--normal-16);
-  color: var(--white-color);
-  width: 100%;
-  background-color: var(--mostaza-color);
-  border: none;
-  box-shadow: var(--box-shadow);
-  outline: none;
-}
-
-.types--info__button button:hover{
-  cursor: pointer;
-  background-color: var(--cat-color);
-}
-
-
-/* Footer */
+/* Footer --------------------------->  */ 
 
 
 .footer{
   width: 100%;
   height: 40px;
   background-color: var(--gray-color);
+  margin-top: 87px;
   display: flex;
   flex-direction: row;
   justify-content: center;
